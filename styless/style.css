@@ -1,0 +1,203 @@
+
+
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 151px;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+.nav-title{
+    font-size: 34px;
+    color: #4E47FF;
+}
+    
+.bt-primary{
+    background-color: #4E47FF;
+    color:#FFFFFF;
+    border-radius: 10px;
+    padding: 12px 36px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+div ul li{
+list-style: none;
+}
+
+.banner{
+    
+    text-align: center;
+    gap: 35px;
+    /* margin: 309px 266px 152px 266px; */
+    margin: 309px 268px 152px 268px;
+    
+    
+    
+    
+}
+.banner-content{
+    max-width: 905px;
+    
+    
+}
+.banner-description{
+    color: #252432;
+    font-size: 65px;
+    font-weight: bold;
+}
+.header{
+    background-image:url('../Assets/Hero-bg.png');
+    max-width: 1270px;
+    
+}
+
+
+.section-title{
+    color: #252432;
+    font-size: 42px;
+    font-style: bold;
+}
+.section-description{
+    color: #252432;
+    font-size: 24px;
+    font-style:normal;
+}
+
+/* .action{
+    width: 517px;
+} */
+
+.secondary-img{
+    width:403px ;
+    border-radius: 48px;
+}
+
+.action-fa{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 104px 160px 116px 141px;
+    gap: auto;
+    max-width: 1140px;
+}
+
+    
+/* /* main-styles */
+
+
+.secondary-bg{
+    background-color: #4E47FF  ;
+    
+}
+
+.section-title2{
+    font-size: 38px;
+    font-style: bold;
+    color: #252432;
+    text-align: center;
+    /* padding: 50px 151px; */
+   
+}
+
+.views{
+    border-radius: 24px;
+    
+    margin: 116px 159px 127px 141px;
+    max-width: 1140px;
+}
+
+.about-numbers{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    font-size: 80px;
+    font-weight: 800px;
+    /* color: #4E47FF; */
+}
+
+.description{
+     color: #000000;
+     font-size: 20px;
+
+
+}
+
+.none{
+    padding: 50px 151px;
+}
+
+main section{
+    margin-top: 130px;
+}
+
+/* section 3rd */
+
+
+.section-title3{
+    font-size: 42px;
+    font-style: bold;
+    text-align: center;
+}
+
+
+
+.star{
+    background-image: url(../Assets/icon-star.png);
+    background-repeat: repeat-x;
+    background-size: 18px 17px;
+    width: 90px;
+    height: 17px;
+
+}
+
+/* review section style */
+
+.ratings-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.rating{
+        padding: 24px;
+        border-radius: 14px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.review{
+    margin: 140px 137px 121px 163px;
+    max-width: 1140px;
+    
+}
+

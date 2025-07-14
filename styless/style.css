@@ -114,7 +114,7 @@ list-style: none;
 
 
 .secondary-bg{
-    background-color: #4E47FF  ;
+    background-color: #4d47ff2e  ;
     
 }
 
@@ -123,6 +123,8 @@ list-style: none;
     font-style: bold;
     color: #252432;
     text-align: center;
+    margin-top: -30px;
+    margin-top: 20PX;
     /* padding: 50px 151px; */
    
 }
@@ -132,22 +134,27 @@ list-style: none;
     
     margin: 116px 159px 127px 141px;
     max-width: 1140px;
+    height: 340px;
 }
 
 .about-numbers{
     display: flex;
     justify-content: space-around;
+    /* margin-bottom: -10px; */
+    margin-top: 40px;
 }
 
 .item-title{
     font-size: 80px;
-    font-weight: 800px;
-    /* color: #4E47FF; */
+    font-weight: bold;
+    margin-top: -10px;
+    color: #4E47FF;
 }
 
 .description{
-     color: #000000;
+     color: #00000045;
      font-size: 20px;
+     margin-top: -80px;
 
 
 }
@@ -191,7 +198,7 @@ main section{
 .rating{
         padding: 24px;
         border-radius: 14px;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.582);
 }
 
 
@@ -201,3 +208,147 @@ main section{
     
 }
 
+/* what about trail */
+
+.title4{
+    font-size: 50px;
+    font-weight: bold;
+    /* color: blueviolet; */
+}
+
+.description4{
+    color: #00000068;
+    margin-top: -30px;
+}
+.title{
+    text-align: center;
+    /* margin: 71px 312px 20px 312px; */
+    margin-top: -50px;
+    
+}
+
+.button4{
+    text-align: center;
+    margin: 40px;
+    /* gap: 10px; */
+}
+
+.focus-img{
+    height: 840px;
+width: 365px;
+margin-top: 40px;
+
+
+}
+
+
+.whole-trail img{
+    border-radius: 48px;
+    margin: 20px 150px 71px 150px;
+   /* text-align: center; */
+
+}
+
+
+.trail{
+    max-width: 1140px;
+    height: 697px;
+    background-color: #895a5a1b;
+    margin: 121px 150px 92px 150px;
+}
+
+#touch{
+    height: 632px;
+    width: 1140px;
+    padding: 71px 0px 71px 0px;
+    margin-top: 100px;
+    margin-left: 130px;
+}
+.touch-container{
+    display: flex;
+    justify-content: space-between;
+}
+.touch-title{
+    height: 232px;
+    width: 528px;
+    font-size: 65px;
+    color: var(--text-color);
+    margin-top: 150px;
+}
+.label-text{
+    height: 490px;
+    width: 497px;
+}
+.label-text label{
+    font-size: 18px;
+    font-weight:500;
+}
+.label-text #email,#name{
+    height: 70px;
+    width: 497px;
+    padding: 20px 32px 20px 32px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.label-text #message{
+    height: 135px;
+    width: 497px;
+    padding: 20px 32px 20px 32px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.button5{
+    width: 560px;
+    height: 62px;
+    border-radius: 10px;
+    
+}
+
+/* .label-text button:hover{
+    background-color: #5586f0;
+    transform: scale(1.05);
+    border: 2px solid white;
+    box-shadow: 0 0px 5px rgba(11, 178, 229, 0.4),0 0px 15px rgba(11, 178, 229, 0.4); */
+}
+
+/* Foter design */
+#foter{
+    height: 428px;
+    width: 1440px;
+    background-color: #fff;
+}
+.foter-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 428px;
+}
+.foter-container h1{
+    font-size: 80px;
+   color: #4E47FF;
+}
+.foter-container p{
+    font-size: 20px;
+    color:#4c4a716b;
+}
+.foter-container ul{
+    display: flex;
+    height: 24px;
+    width: 401px;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 20px;
+    
+
+}
+.foter-container ul li{
+    list-style: none;
+
+}
+.foter-container ul li a{
+    text-decoration: none;
+    color: #4c4a716b;
+}

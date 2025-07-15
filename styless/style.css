@@ -56,7 +56,6 @@ list-style: none;
     
     text-align: center;
     gap: 35px;
-    /* margin: 309px 266px 152px 266px; */
     margin: 309px 268px 152px 268px;
     
     
@@ -91,10 +90,6 @@ list-style: none;
     font-style:normal;
 }
 
-/* .action{
-    width: 517px;
-} */
-
 .secondary-img{
     width:403px ;
     border-radius: 48px;
@@ -125,7 +120,7 @@ list-style: none;
     text-align: center;
     margin-top: -30px;
     margin-top: 20PX;
-    /* padding: 50px 151px; */
+    
    
 }
 
@@ -140,7 +135,6 @@ list-style: none;
 .about-numbers{
     display: flex;
     justify-content: space-around;
-    /* margin-bottom: -10px; */
     margin-top: 40px;
 }
 
@@ -212,9 +206,8 @@ main section{
 
 .title4{
     font-size: 50px;
-    font-weight: bold;
-    /* color: blueviolet; */
-}
+    font-weight: bold;}
+    
 
 .description4{
     color: #00000068;
@@ -222,7 +215,7 @@ main section{
 }
 .title{
     text-align: center;
-    /* margin: 71px 312px 20px 312px; */
+   
     margin-top: -50px;
     
 }
@@ -230,7 +223,7 @@ main section{
 .button4{
     text-align: center;
     margin: 40px;
-    /* gap: 10px; */
+    
 }
 
 .focus-img{
@@ -245,8 +238,7 @@ margin-top: 40px;
 .whole-trail img{
     border-radius: 48px;
     margin: 20px 150px 71px 150px;
-   /* text-align: center; */
-
+  
 }
 
 
@@ -306,12 +298,6 @@ margin-top: 40px;
     
 }
 
-/* .label-text button:hover{
-    background-color: #5586f0;
-    transform: scale(1.05);
-    border: 2px solid white;
-    box-shadow: 0 0px 5px rgba(11, 178, 229, 0.4),0 0px 15px rgba(11, 178, 229, 0.4); */
-}
 
 /* Foter design */
 #foter{
@@ -351,4 +337,8 @@ margin-top: 40px;
 .foter-container ul li a{
     text-decoration: none;
     color: #4c4a716b;
+}
+
+main{
+    background-color: #eee8e869;
 }

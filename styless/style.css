@@ -48,6 +48,9 @@ nav li a{
     font-size: 16px;
 
 }
+
+
+
 div ul li{
 list-style: none;
 }
@@ -56,7 +59,8 @@ list-style: none;
     
     text-align: center;
     gap: 35px;
-    margin: 309px 268px 152px 268px;
+    
+   margin-top: +200px;   
     
     
     
@@ -74,7 +78,8 @@ list-style: none;
 }
 .header{
     background-image:url('../Assets/Hero-bg.png');
-    max-width: 1270px;
+    width: 1440px;
+    height: 698px;
     
 }
 
@@ -93,6 +98,7 @@ list-style: none;
 .secondary-img{
     width:403px ;
     border-radius: 48px;
+    margin-top: +100px;
 }
 
 .action-fa{
@@ -247,6 +253,7 @@ margin-top: 40px;
     height: 697px;
     background-color: #895a5a1b;
     margin: 121px 150px 92px 150px;
+    
 }
 
 #touch{
